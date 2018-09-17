@@ -74,7 +74,7 @@ const getCdnMarkup = options => `
     <link rel="shortcut icon" href="//cdn.jsdelivr.net/npm/graphql-playground-react@${
       options.version
     }/build/favicon.png" />
-    <script src="https://raw.githubusercontent.com/leonaves/graphql-playground/master/packages/graphql-playground-react/build/static/js/middleware.js"></script>
+    <script src="https://rawgit.com/leonaves/graphql-playground/master/packages/graphql-playground-react/build/static/js/middleware.js"></script>
 `
 
 export function renderPlaygroundPage(options: RenderPageOptions) {
