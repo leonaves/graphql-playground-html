@@ -10,7 +10,7 @@ var __assign = (this && this.__assign) || Object.assign || function(t) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var get_loading_markup_1 = require("./get-loading-markup");
 var loading = get_loading_markup_1.default();
-var getCdnMarkup = function (options) { return "\n    <link rel=\"stylesheet\" href=\"//cdn.jsdelivr.net/npm/graphql-playground-react@" + options.version + "/build/static/css/index.css\" />\n    <link rel=\"shortcut icon\" href=\"//cdn.jsdelivr.net/npm/graphql-playground-react@" + options.version + "/build/favicon.png\" />\n    <script src=\"https://raw.githubusercontent.com/leonaves/graphql-playground/master/packages/graphql-playground-react/build/static/js/middleware.js\"></script>\n"; };
+var getCdnMarkup = function (options) { return "\n    <link rel=\"stylesheet\" href=\"//cdn.jsdelivr.net/npm/graphql-playground-react@" + options.version + "/build/static/css/index.css\" />\n    <link rel=\"shortcut icon\" href=\"//cdn.jsdelivr.net/npm/graphql-playground-react@" + options.version + "/build/favicon.png\" />\n    <script src=\"https://rawgit.com/leonaves/graphql-playground/master/packages/graphql-playground-react/build/static/js/middleware.js\"></script>\n"; };
 function renderPlaygroundPage(options) {
     var extendedOptions = __assign({}, options, { canSaveConfig: false });
     // for compatibility
